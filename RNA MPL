@@ -73,7 +73,7 @@ n_records, n_features = X_train.shape
 N_input = 3
 N_hidden = 8
 N_output = 2
-learnrate = 0.1
+learnrate = 0.2
 
 #Pesos da Camada Oculta (Inicialização Aleatória)
 weights_input_hidden = np.random.normal(0, scale=0.1, size=(N_input, N_hidden))
